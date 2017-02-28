@@ -109,7 +109,7 @@ repo.auth(username="your_name", password="your_password")
 
 ```python
 # Create branch off master
-repo.create_branch('dev', 'master')
+repo.create_branch('master', 'dev')
 
 # Checkout the branch
 repo.switch_branch('dev')
